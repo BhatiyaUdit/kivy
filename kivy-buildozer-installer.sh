@@ -8,22 +8,21 @@ sudo python3 get-pip.py
 
 # Dependencies with SDL2
 # Install necessary system packages
-sudo apt-get install -y \
-    python-pip \
-    build-essential \
-    git \
-    python \
-    python3-dev \
-    ffmpeg \
-    libsdl2-dev \
-    libsdl2-image-dev \
-    libsdl2-mixer-dev \
-    libsdl2-ttf-dev \
-    libportmidi-dev \
-    libswscale-dev \
-    libavformat-dev \
-    libavcodec-dev \
-    zlib1g-dev
+sudo apt-get install -y python-pip
+sudo apt-get install -y build-essential
+sudo apt-get install -y git
+sudo apt-get install -y python
+sudo apt-get install -y python3-dev
+sudo apt-get install -y ffmpeg
+sudo apt-get install -y libsdl2-dev
+sudo apt-get install -y libsdl2-image-dev
+sudo apt-get install -y libsdl2-mixer-dev 
+sudo apt-get install -y libsdl2-ttf-dev
+sudo apt-get install -y libportmidi-dev
+sudo apt-get install -y libswscale-dev
+sudo apt-get install -y libavformat-dev
+sudo apt-get install -y zlib1g-dev
+sudo apt-get install -y libavcodec-dev
 
 # Dependencies Kivy
 sudo pip3 install cython
@@ -32,28 +31,27 @@ sudo pip3 install cython
 sudo pip3 install kivy
 
 # Dependencies Buildozer
-sudo apt-get install -y \
-    build-essential \
-    ccache \
-    git \
-    libncurses5:i386 \
-    libstdc++6:i386 \
-    libgtk2.0-0:i386 \
-    libpangox-1.0-0:i386 \
-    libpangoxft-1.0-0:i386 \
-    libidn11:i386 \
-    python2.7 \
-    python2.7-dev \
-    openjdk-8-jdk \
-    unzip \
-    zlib1g-dev \
-    zlib1g:i386 \
-    libltdl-dev \
-    libffi-dev \
-    libssl-dev \
-    autoconf \
-    autotools-dev
-    cmake
+sudo apt-get install -y build-essential 
+sudo apt-get install -y ccache 
+sudo apt-get install -y git 
+sudo apt-get install -y libncurses5:i386 
+sudo apt-get install -y libstdc++6:i386 
+sudo apt-get install -y libgtk2.0-0:i386 
+sudo apt-get install -y libpangox-1.0-0:i386 
+sudo apt-get install -y libpangoxft-1.0-0:i386 
+sudo apt-get install -y libidn11:i386 
+sudo apt-get install -y python2.7 
+sudo apt-get install -y python2.7-dev 
+sudo apt-get install -y openjdk-8-jdk 
+sudo apt-get install -y unzip 
+sudo apt-get install -y zlib1g-dev 
+sudo apt-get install -y zlib1g:i386 
+sudo apt-get install -y libltdl-dev 
+sudo apt-get install -y libffi-dev 
+sudo apt-get install -y libssl-dev 
+sudo apt-get install -y autoconf 
+sudo apt-get install -y autotools-dev
+sudo apt-get install -y cmake
 
 # Install Buildozer
 
