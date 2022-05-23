@@ -8,7 +8,7 @@ sudo python3 get-pip.py
 
 # Dependencies with SDL2
 # Install necessary system packages
-sudo apt-get install -y python-pip
+sudo apt-get install -y python3-pip
 sudo apt-get install -y build-essential
 sudo apt-get install -y git
 sudo apt-get install -y python
@@ -34,24 +34,28 @@ sudo pip3 install kivy
 sudo apt-get install -y build-essential 
 sudo apt-get install -y ccache 
 sudo apt-get install -y git 
+
 sudo apt-get install -y libncurses5:i386 
 sudo apt-get install -y libstdc++6:i386 
 sudo apt-get install -y libgtk2.0-0:i386 
 sudo apt-get install -y libpangox-1.0-0:i386 
 sudo apt-get install -y libpangoxft-1.0-0:i386 
 sudo apt-get install -y libidn11:i386 
+sudo apt-get install -y zlib1g:i386 
+
 sudo apt-get install -y python2.7 
 sudo apt-get install -y python2.7-dev 
 sudo apt-get install -y openjdk-8-jdk 
 sudo apt-get install -y unzip 
 sudo apt-get install -y zlib1g-dev 
-sudo apt-get install -y zlib1g:i386 
+
 sudo apt-get install -y libltdl-dev 
 sudo apt-get install -y libffi-dev 
 sudo apt-get install -y libssl-dev 
 sudo apt-get install -y autoconf 
 sudo apt-get install -y autotools-dev
 sudo apt-get install -y cmake
+sudo apt-get install -y zip
 
 # Install Buildozer
 
